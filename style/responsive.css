@@ -1,0 +1,17 @@
+/* mobile responsive style  */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 10px;
+        align-items: center;
+     }
+    ul{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+
+}
