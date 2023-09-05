@@ -215,12 +215,11 @@ li>a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 50px 200px 0 430px;
+    margin-top: 20px;
+    margin-left: 260px;
+    margin-bottom: 0;
 }
 
-.no-download-content{
-    margin-bottom: 140px;
-}
 
 .no-download-title {
     color: #0B0223;
@@ -242,11 +241,63 @@ li>a {
     font-size: 18px;
     font-weight: 400;
 
+
 }
 
 
 .img3 {
     position: relative;
-   bottom: 280px;
-  margin-left: -100px;
+    bottom: 280px;
+    margin-left: -100px;
+}
+
+
+
+/* game list style */
+
+.game-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+   margin-right: 240px;
+   margin-left: 240px;
+   
+}
+
+
+.game-list-div{
+    display: flex;
+    gap: 10px;
+}
+.games {
+    width: 330px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+    align-items: end;
+   margin: 10px;
+    border: none;
+    
+
+}
+.acrade{
+    border: 1px solid #FF42A5;
+}
+
+.games:hover {
+    
+    border: 1px solid blue;
+   
+}
+
+.games p{
+    color: #7f7c85;
+font-size: 20px;
+font-weight: 600;
 } 
+
+.games p:hover{
+    color: blue;
+}

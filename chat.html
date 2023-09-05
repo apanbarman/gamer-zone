@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px; /* Adjust spacing between rows */
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Responsive CSS for 576px breakpoint */
+@media (max-width: 576px) {
+  .column {
+    flex: 1 0 50%; /* Two columns per row */
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <div class="row">
+          <div class="column">Button 1</div>
+          <div class="column">Button 2</div>
+          <div class="column">Button 3</div>
+          <div class="column">Button 4</div>
+          <div class="column">Button 5</div>
+        </div>
+        <div class="row">
+          <div class="column">Button 6</div>
+          <div class="column">Button 7</div>
+          <div class="column">Button 8</div>
+          <div class="column">Button 9</div>
+        </div>
+      </div>
+</body>
+</html>
