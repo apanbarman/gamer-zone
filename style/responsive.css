@@ -20,12 +20,22 @@
         flex-direction: column-reverse;
        
     }
-    .banner img{
+    .banner img, .gamer img{
         width: 100%;
     }
     .banner-btn{
         display: flex;
     }
 
+    .gamer{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .gamer-content{
+        text-align: center;
+       align-items: center;
+    }
+ 
 
 }
